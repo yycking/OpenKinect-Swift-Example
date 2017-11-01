@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFF90DD81FA995C70096502D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF90DD71FA995C70096502D /* AppDelegate.swift */; };
+		AFF90DDA1FA995C70096502D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AFF90DD91FA995C70096502D /* GameScene.sks */; };
+		AFF90DDC1FA995C70096502D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AFF90DDB1FA995C70096502D /* Actions.sks */; };
+		AFF90DDE1FA995C70096502D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF90DDD1FA995C70096502D /* GameScene.swift */; };
+		AFF90DE01FA995C70096502D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF90DDF1FA995C70096502D /* ViewController.swift */; };
+		AFF90DE21FA995C70096502D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF90DE11FA995C70096502D /* Assets.xcassets */; };
+		AFF90DE51FA995C70096502D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF90DE31FA995C70096502D /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AFF90DD41FA995C70096502D /* OpenKinect-Swift-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenKinect-Swift-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF90DD71FA995C70096502D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFF90DD91FA995C70096502D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		AFF90DDB1FA995C70096502D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		AFF90DDD1FA995C70096502D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AFF90DDF1FA995C70096502D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFF90DE11FA995C70096502D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFF90DE41FA995C70096502D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFF90DE61FA995C70096502D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF90DE71FA995C70096502D /* OpenKinect_Swift_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenKinect_Swift_Example.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFF90DD11FA995C70096502D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFF90DCB1FA995C70096502D = {
+			isa = PBXGroup;
+			children = (
+				AFF90DD61FA995C70096502D /* OpenKinect-Swift-Example */,
+				AFF90DD51FA995C70096502D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFF90DD51FA995C70096502D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFF90DD41FA995C70096502D /* OpenKinect-Swift-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFF90DD61FA995C70096502D /* OpenKinect-Swift-Example */ = {
+			isa = PBXGroup;
+			children = (
+				AFF90DD71FA995C70096502D /* AppDelegate.swift */,
+				AFF90DD91FA995C70096502D /* GameScene.sks */,
+				AFF90DDB1FA995C70096502D /* Actions.sks */,
+				AFF90DDD1FA995C70096502D /* GameScene.swift */,
+				AFF90DDF1FA995C70096502D /* ViewController.swift */,
+				AFF90DE11FA995C70096502D /* Assets.xcassets */,
+				AFF90DE31FA995C70096502D /* Main.storyboard */,
+				AFF90DE61FA995C70096502D /* Info.plist */,
+				AFF90DE71FA995C70096502D /* OpenKinect_Swift_Example.entitlements */,
+			);
+			path = "OpenKinect-Swift-Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFF90DD31FA995C70096502D /* OpenKinect-Swift-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF90DEA1FA995C70096502D /* Build configuration list for PBXNativeTarget "OpenKinect-Swift-Example" */;
+			buildPhases = (
+				AFF90DD01FA995C70096502D /* Sources */,
+				AFF90DD11FA995C70096502D /* Frameworks */,
+				AFF90DD21FA995C70096502D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenKinect-Swift-Example";
+			productName = "OpenKinect-Swift-Example";
+			productReference = AFF90DD41FA995C70096502D /* OpenKinect-Swift-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFF90DCC1FA995C70096502D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Wayne Yeh";
+				TargetAttributes = {
+					AFF90DD31FA995C70096502D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AFF90DCF1FA995C70096502D /* Build configuration list for PBXProject "OpenKinect-Swift-Example" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFF90DCB1FA995C70096502D;
+			productRefGroup = AFF90DD51FA995C70096502D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFF90DD31FA995C70096502D /* OpenKinect-Swift-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFF90DD21FA995C70096502D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF90DDA1FA995C70096502D /* GameScene.sks in Resources */,
+				AFF90DE21FA995C70096502D /* Assets.xcassets in Resources */,
+				AFF90DDC1FA995C70096502D /* Actions.sks in Resources */,
+				AFF90DE51FA995C70096502D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFF90DD01FA995C70096502D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF90DE01FA995C70096502D /* ViewController.swift in Sources */,
+				AFF90DDE1FA995C70096502D /* GameScene.swift in Sources */,
+				AFF90DD81FA995C70096502D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFF90DE31FA995C70096502D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF90DE41FA995C70096502D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFF90DE81FA995C70096502D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFF90DE91FA995C70096502D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		AFF90DEB1FA995C70096502D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OpenKinect-Swift-Example/OpenKinect_Swift_Example.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZRU74Q6CGE;
+				INFOPLIST_FILE = "OpenKinect-Swift-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.yyc.OpenKinect-Swift-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		AFF90DEC1FA995C70096502D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OpenKinect-Swift-Example/OpenKinect_Swift_Example.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZRU74Q6CGE;
+				INFOPLIST_FILE = "OpenKinect-Swift-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.yyc.OpenKinect-Swift-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFF90DCF1FA995C70096502D /* Build configuration list for PBXProject "OpenKinect-Swift-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF90DE81FA995C70096502D /* Debug */,
+				AFF90DE91FA995C70096502D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF90DEA1FA995C70096502D /* Build configuration list for PBXNativeTarget "OpenKinect-Swift-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF90DEB1FA995C70096502D /* Debug */,
+				AFF90DEC1FA995C70096502D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFF90DCC1FA995C70096502D /* Project object */;
+}
