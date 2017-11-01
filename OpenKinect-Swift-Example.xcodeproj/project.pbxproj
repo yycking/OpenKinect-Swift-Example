@@ -14,6 +14,7 @@
 		AFF90DE01FA995C70096502D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF90DDF1FA995C70096502D /* ViewController.swift */; };
 		AFF90DE21FA995C70096502D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF90DE11FA995C70096502D /* Assets.xcassets */; };
 		AFF90DE51FA995C70096502D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF90DE31FA995C70096502D /* Main.storyboard */; };
+		AFF90E0B1FA9DC470096502D /* libfreenect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF90E0A1FA9DC470096502D /* libfreenect.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,9 @@
 		AFF90DE41FA995C70096502D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFF90DE61FA995C70096502D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFF90DE71FA995C70096502D /* OpenKinect_Swift_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenKinect_Swift_Example.entitlements; sourceTree = "<group>"; };
+		AFF90DF51FA9AAF80096502D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AFF90DFA1FA9AB5E0096502D /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		AFF90E0A1FA9DC470096502D /* libfreenect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreenect.a; path = ../../../../usr/local/lib/libfreenect.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFF90E0B1FA9DC470096502D /* libfreenect.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,8 +48,11 @@
 		AFF90DCB1FA995C70096502D = {
 			isa = PBXGroup;
 			children = (
+				AFF90DF51FA9AAF80096502D /* README.md */,
+				AFF90DF91FA9AB5E0096502D /* OpenKinect */,
 				AFF90DD61FA995C70096502D /* OpenKinect-Swift-Example */,
 				AFF90DD51FA995C70096502D /* Products */,
+				AFF90E091FA9DC470096502D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +78,22 @@
 				AFF90DE71FA995C70096502D /* OpenKinect_Swift_Example.entitlements */,
 			);
 			path = "OpenKinect-Swift-Example";
+			sourceTree = "<group>";
+		};
+		AFF90DF91FA9AB5E0096502D /* OpenKinect */ = {
+			isa = PBXGroup;
+			children = (
+				AFF90DFA1FA9AB5E0096502D /* module.modulemap */,
+			);
+			path = OpenKinect;
+			sourceTree = "<group>";
+		};
+		AFF90E091FA9DC470096502D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFF90E0A1FA9DC470096502D /* libfreenect.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,10 +303,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZRU74Q6CGE;
+				HEADER_SEARCH_PATHS = /usr/local/include/libfreenect;
 				INFOPLIST_FILE = "OpenKinect-Swift-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_BUNDLE_IDENTIFIER = "app.yyc.OpenKinect-Swift-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/OpenKinect";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -295,10 +322,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZRU74Q6CGE;
+				HEADER_SEARCH_PATHS = /usr/local/include/libfreenect;
 				INFOPLIST_FILE = "OpenKinect-Swift-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_BUNDLE_IDENTIFIER = "app.yyc.OpenKinect-Swift-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/OpenKinect";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;

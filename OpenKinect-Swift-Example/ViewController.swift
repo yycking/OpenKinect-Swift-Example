@@ -10,12 +10,19 @@ import Cocoa
 import SpriteKit
 import GameplayKit
 
+import Freenect
+
 class ViewController: NSViewController {
 
     @IBOutlet var skView: SKView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var fn_ctx: OpaquePointer?
+        var ret = freenect_init(&fn_ctx, nil)
+        
+        print(ret)
         
         // Load 'GameScene.sks' as a GKScene. This provides gameplay related content
         // including entities and graphs.

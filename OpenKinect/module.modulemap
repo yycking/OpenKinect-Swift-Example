@@ -1,0 +1,4 @@
+module Freenect [system] {
+    header "/usr/local/include/libfreenect/libfreenect.h"
+    export *
+}
